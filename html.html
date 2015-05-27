@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<head>
+  <title>HTML</title>
+ <!-- BLINKING BACKGROUND-->
+        <script type="text/javascript">
+
+            function change_color(flag){
+                var color = null;
+                if (flag === true){
+                    var color = "Green";
+                }else{
+                    var color = "Red";
+                }
+                document.body.style.background = color;
+                flag = !flag
+                var t=setTimeout(function(){change_color(flag)},1000);
+            }
+        </script>
+  
+  </head>
+
+
+  <body onload="change_color(true)" style="text-align: center">
+  
+  <p>Html and the world around you</p>
+      <a href="index.html">
+        <button>About You</button>
+      </a>
+        
+        <a href="welcome.html">
+        <button>Welcome</button>
+        </a>
+        
+        <a href="html.html">
+        <button>HTML</button>
+        </a>
+                <a href="Hardware.html">
+        <button>Hardware</button>
+          
+        </a>
+        
+        
+     <p>Html and Other stuff</p>
+    
+      <p>Html is a program that someone writes code in. Html stands for Hyper Text Markup Language. Html was created in 1991 by Tim Berners-Lee. He is also the invertor and founder on the World Wibe Web. Its written by using various "tags". These tags make the program do different things. For example the <p> tag starts a paragraph. Tags work by adding different signs to the start and end of the commands.</p>
+      
+      
+      
+      
+      <p>CSS stands for Cascading Style Sheets</p>
+  <p>CSS is basically used to change the colors or background of your Htlm. I would like to say its the beautification of the Html.</p>
+  <img src="http://files.softicons.com/download/system-icons/lozengue-filetype-icons-by-gurato/png/256/CSS.png">
+<p>It was created by Hakon Wium Lie.</p>
+  <img src="http://people.opera.com/howcome/2010/ego/bart-s.jpg">
+<p>Its very simple to use. For example when want to change the font family in css you make a new file named "stylesheet.css" Then you write "p{ then press enter a couple of times then }. You can change things in css that make it easier to make your website look better. </p>
+ 
+  <p>A tag is something that you use to start a specific part in html or css. Like for this paragraph im writing I am using the"
+    p" tag. An atribute is used to select elements with a specific atribute such as the background color</p>
+  
+  <ul>CSS TAGS</ul>
+    <li>Background: It changes your background color or image.</li>
+    <li>Color: Color changes the color of the text.</li>
+    <li>Border: Makes a border around anything you basically want.</li>
+    <li>Font: Changes the font to the one of your choice.
+    <li>Height: Changes the height of an image.</li>
+    
+  
+  
+  </body>

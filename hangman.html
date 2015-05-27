@@ -1,0 +1,76 @@
+<!--
+To change this template use Tools | Templates.
+-->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>HangMan</title>
+    <link rel="stylesheet" type="text/css" href="hangman.css">
+</head>
+<body>
+    <h1>HangMan Game</h1>
+<img src="http://www.passporttoenglish.com/Beginning-English/Lesson2/hangman0.gif"  style="width:304px;height:228px">
+<h2>
+    <button type="button" class="button" onclick="checkLetter('A');">A</button>
+    <button type="button" class="button" onclick="checkLetter('B');">B</button>      
+    <button type="button" class="button" onclick="checkLetter('C');">C</button>      
+    <button type="button" class="button" onclick="checkLetter('D');">D</button>      
+    <button type="button" class="button" onclick="checkLetter('E');">E</button>      
+    <button type="button" class="button" onclick="checkLetter('F');">F</button>
+    <button type="button" class="button" onclick="checkLetter('G');">G</button>      
+    <button type="button" class="button" onclick="checkLetter('H');">H</button>      
+    <button type="button" class="button" onclick="checkLetter('I');">I</button>
+    <button type="button" class="button" onclick="checkLetter('J');">J</button>      
+    <button type="button" class="button" onclick="checkLetter('K');">K</button>      
+    <button type="button" class="button" onclick="checkLetter('L');">L</button>      
+    <button type="button" class="button" onclick="checkLetter('M');">M</button></h2>      
+    <button type="button" class="button" onclick="checkLetter('N');">N</button>     
+    <button type="button" class="button" onclick="checkLetter('O');">O</button>      
+    <button type="button" class="button" onclick="checkLetter('P');">P</button>      
+    <button type="button" class="button" onclick="checkLetter('Q');">Q</button>      
+    <button type="button" class="button" onclick="checkLetter('R');">R</button>    
+    <button type="button" class="button" onclick="checkLetter('S');">S</button>      
+    <button type="button" class="button" onclick="checkLetter('T');">T</button>      
+    <button type="button" class="button" onclick="checkLetter('U');">U</button>      
+    <button type="button" class="button" onclick="checkLetter('V');">V</button> 
+    <button type="button" class="button" onclick="checkLetter('W');">W</button>
+    <button type="button" class="button" onclick="checkLetter('X');">X</button>
+    <button type="button" class="button" onclick="checkLetter('Y');">Y</button>
+    <button type="button" class="button" onclick="checkLetter('Z');">Z</button>  
+    <div>
+        <br>
+        <table border="1px">
+            <tr>
+                <td>Incorrect Letters</td>
+                <td><div id="incLetters" style="width: 300px; height:30px" />
+</td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <br>
+        <table border="1px">
+            <tr>
+                <td>Word-</td>
+                <td> <div id="letter1" class="letter">
+                    
+                    </div>
+                    <div id="letter2" class="letter">
+                    
+                    </div>
+                    <div id="letter3" class="letter">
+                    
+                    </div>
+                    <div id="letter4" class="letter">
+                    
+                    </div>
+                    <div id="letter5" class="letter">
+                    
+                    </div>
+</td>
+            </tr>
+        </table>
+    </div>
+    <script src="hangman.js"></script>
+</body>
+</html>
