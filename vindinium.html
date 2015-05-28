@@ -1,0 +1,44 @@
+<!--
+To change this template use Tools | Templates.
+-->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>Vindinium</title>
+</head>
+<body>
+   <ul id="navbar">
+       <li><a href="Calculator.HTML">Calculator</a></li>
+       <li><a href="Tic-Tac-Toe.HTML">Tic-Tac-Toe</a></li> 
+       <li><a href="c4.html">Connect 4</a></li>
+       <li><a href ="hangman.html">Hangman</a></li>
+       <li><a href ="vindinium.html">Vindinium</a></li>   
+     </ul>
+    <header>Vindinium AI</header>
+    <header><center>What Is Vinidium?</center></header>
+    <img src="http://i.imgur.com/8NlAaFv.png"width=" 500" height="400" alt>
+   <div>
+    <center>Vindinium is an multiplayer game in which a player controls an AI (bot) and writes code to control that bot. A player can use any coding language and use it to command his AI in any single way he might want to. The possibilites are endless. The AIs then go into an arena with mines and taverns also including the other players that have qued up their bots. You fight eachother and also the goblins gaurding the mines for control of the map. Control of the map gives you gold, which then gives you a lead in the game because who ever has the most gold at the end of turn 1200
+       </center> 
+   </div>
+   <div>
+       <header><center>How Does The Bot Work?</center></header>
+       The bots works by writing code into a file. The code in this file will make so that your AI will do the commands that you have written into the code. You can write code in any programing language and then run it in the vindinium server and battle your bots to see who has the superior code and strategy.
+    </div> 
+    <header><center>Code & Explaination</center></header> 
+     <div>
+         <code><pre>   if(task === "freemines") {
+            var closestMine = notMyMines[0];
+            for(i = 0; i < bot.freeMines.length; i++) {
+                if(bot.findDistance(myPos, closestMine) > bot.findDistance(myPos, notMyMines[i])) {
+                    closestMine = notMyMines[i];
+                }
+            }
+            console.log("TAKING YA MONEY!");
+            myDir = bot.findPath(myPos, closestMine);
+        }</pre></code>
+    </div> 
+         <center>This code above makes my bot take mines that are taken and not taken aswell. It checks his surroundings and finds the best path to get his way to the ClosestMine and take it. It has a variable of NotMyMine so that it can figure out that any mine that is not owned by him should be taken. He then proceeds to the mine choosing the mine that is the closest. My bot completely ignores all the other players and goes for the passive plays and only goes after the mines because that is how he can make the most money.</center> 
+    
+</body>
+</html>
